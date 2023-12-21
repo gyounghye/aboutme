@@ -118,8 +118,7 @@ header>h1{
 	overflow: hidden;
 	position: relative;
 	width: 300px;
-	height: 300px;
-	
+	height: 300px;	
 	transform: rotate(10deg);
  }
  .container>aside>.frame>img{
@@ -128,9 +127,15 @@ header>h1{
 	transition: all 1s;
  }
  .container>aside>.frame>.cat{
-	position: absolute;
-	left: 20px;
-	top: 10px;
+	 display: flex;
+	 position: absolute;
+	 left: 20px;
+	 top: 10px;
+	}
+.container>aside>.frame>.cat>p{
+	margin-top: 10px;
+	font-weight: 500;
+
  }
  .container>aside>.frame>.cat>img{
 	width: 80px;
