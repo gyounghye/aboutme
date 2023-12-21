@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{background-color: #ffa28b;}
+#wrap{	
+	margin: 0 auto;
+	margin-top: 20px;
+	background-image: url(./../images/back.jpg);	
+	background-size: 1400px 1000px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+header>h1{
+	margin: 30px;
+	font-weight: 800;
+	font-size: 60px;
+	color: #fff;
+	text-shadow: 2px 2px 5px rgba(255,0,0,0.5);
+}
