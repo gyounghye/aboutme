@@ -17,3 +17,16 @@ header>h1{
 	color: #fff;
 	text-shadow: 2px 2px 5px rgba(255,0,0,0.5);
 }
+
+footer{
+	width: 1400px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #1c2335;	
+}
+footer>address{
+	font-style: italic;
+	color: #fff;
+	line-height: 100px;
+	text-align: center;
+}
